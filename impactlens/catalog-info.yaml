@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: impactlens
   description: Tool to evaluate ai impacts for team and individuals productivity
+  annotations:
+    github.com/project-slug: testcara/impactlens
 spec:
   type: service
   lifecycle: production
