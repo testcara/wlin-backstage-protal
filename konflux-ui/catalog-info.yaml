@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: konflux-ui
+  description: UI for konflux deliverly tool
+  annotations:
+    github.com/project-slug: konflux-ci/konflux-ui
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/testcara
