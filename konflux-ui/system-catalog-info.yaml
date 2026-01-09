@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: konflux-ui
+  title: Konflux UI
+  description: >
+    Konflux UI is the user-facing system for Konflux, covering UI development,
+    CI/CD visibility, release workflows, and AI-assisted engineering insights.
+  annotations:
+    jira/project-key: KFLUXUI
+spec:
+  owner: group:default/konflux-ui
+  domain: konflux
+

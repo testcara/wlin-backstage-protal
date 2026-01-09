@@ -8,4 +8,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: user:default/testcara
+  owner: group:default/konflux-ui
+  system: konflux-ui
