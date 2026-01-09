@@ -5,8 +5,9 @@ metadata:
   description: UI for konflux deliverly tool
   annotations:
     github.com/project-slug: konflux-ci/konflux-ui
+    jira/project-key: Konflux UI
 spec:
   type: service
   lifecycle: production
   owner: group:default/konflux-ui
-  system: konflux-ui
+  system: konflux
